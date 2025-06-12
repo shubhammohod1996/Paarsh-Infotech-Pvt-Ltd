@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Social Network - Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html"><img src="Images/logo.png" width="120" /></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
+        <li class="nav-item"><a class="nav-link" href="messages.html">Messages</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#">Notifications</a></li>
+      </ul>
+      <form class="d-flex me-3">
+        <input class="form-control" type="search" placeholder="Search...">
+      </form>
+      <button class="btn btn-outline-light">Logout</button>
+    </div>
+  </div>
+</nav>
+
+<!-- Banner/Slider -->
+<div id="bannerCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Images/courses01.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Images/courses02.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+        <img src="Images/courses03.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="Images/courses04.jpg" class="d-block w-100" alt="...">
+      </div>
+  </div>
+</div>
+
+<!-- User Feed and Trending -->
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-md-8">
+      <div class="mb-3">
+        <textarea class="form-control" placeholder="What's on your mind?"></textarea>
+        <button class="btn btn-primary mt-2">Post</button>
+      </div>
+      <div class="post card mb-3">
+        <div class="card-body">
+          <h5>User Name:shubhammohod358</h5>
+          <p>Frontend Developer | Loves building web apps</p>
+          <img src="Images/mentors01-1.png" class="img-fluid">
+          <div class="mt-2">
+            <button class="btn btn-sm btn-outline-primary">Like</button>
+            <button class="btn btn-sm btn-outline-secondary">Comment</button>
+            <button class="btn btn-sm btn-outline-success">Share</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h5>Trending Topics</h5>
+      <ul class="list-group">
+        <li class="list-group-item">#Summer2025</li>
+        <li class="list-group-item">#TechNews</li>
+        <li class="list-group-item">#SocialBuzz</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-dark text-white pt-4 pb-3 mt-5">
+  <div class="container text-center text-md-start">
+    <div class="row">
+      <!-- Footer Links -->
+      <div class="col-md-6 mb-3">
+        <h5 class="text-uppercase">Quick Links</h5>
+        <ul class="list-unstyled">
+          <li><a href="#" class="text-white text-decoration-none">About Us</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Privacy Policy</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Terms of Service</a></li>
+          <li><a href="#" class="text-white text-decoration-none">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media Icons -->
+      <div class="col-md-6 mb-3 text-center text-md-end">
+        <h5 class="text-uppercase">Follow Us</h5>
+        <a href="https://facebook.com" target="_blank" class="text-white me-3">
+          <i class="bi bi-facebook fs-4"></i>
+        </a>
+        <a href="https://twitter.com" target="_blank" class="text-white me-3">
+          <i class="bi bi-twitter fs-4"></i>
+        </a>
+        <a href="https://instagram.com" target="_blank" class="text-white me-3">
+          <i class="bi bi-instagram fs-4"></i>
+        </a>
+        <a href="https://linkedin.com" target="_blank" class="text-white">
+          <i class="bi bi-linkedin fs-4"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="text-center mt-3">
+    <small>© 2025 Paarsh Infotech Pvt Ltd. All rights reserved.</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
